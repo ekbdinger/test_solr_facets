@@ -1,0 +1,15 @@
+name = Solr Facets
+core = 7.x
+package = solr
+version = 7.x-1.0-beta
+project = solr_facets
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = facetapi
+features[context][] = facet_version
+features[context][] = forum_category_test
+features[ctools][] = context:context:3
+features[ctools][] = facetapi:facetapi_defaults:1
+features[facetapi][] = apachesolr@acquia_search_server_1::im_field_version
+features[facetapi][] = apachesolr@acquia_search_server_1::im_taxonomy_forums
+features[features_api][] = api:2

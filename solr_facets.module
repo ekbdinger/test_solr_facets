@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Solr Facets feature.
+ */
+
+include_once 'solr_facets.features.inc';
